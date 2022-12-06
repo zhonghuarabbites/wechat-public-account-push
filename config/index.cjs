@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '凡凡姐姐',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oehcn6kN3ZK8zBdYRkxbVBB2oozI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -28,15 +28,15 @@ const USER_CONFIG = {
       horoscopeDate: '10-16',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+        #{
+          type: '*生日', name: '', year: '2002', date: '09-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '凡凡姐姐', year: '2002', date: '10-17',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+        #{
+          type: '节日', name: '相识纪念日', year: '2022', date: '09-16',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-12-06' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        #{ keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
