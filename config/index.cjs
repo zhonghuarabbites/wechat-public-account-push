@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '凡凡姐姐',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oehcn6kN3ZK8zBdYRkxbVBB2oozI''oehcn6o8ijKrPSCBOLqTLtbUlKb8',
+      id: 'oehcn6o8ijKrPSCBOLqTLtbUlKb8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'qL9XGPkFgw4ONV6muONY6-GiDg7KcldwqqORdRO_Pl8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -41,6 +41,30 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2022-11-26' },
       ],
     },
+  {
+      // 想要发送的人的名字
+      name: '凡凡姐姐',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oehcn6kN3ZK8zBdYRkxbVBB2oozI',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'qL9XGPkFgw4ONV6muONY6-GiDg7KcldwqqORdRO_Pl8',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '06-01',
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '凡凡姐姐', year: '2002', date: '10-17',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2022', date: '09-16',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-11-26' },
+      ],
+    },  
   ],
 
 
