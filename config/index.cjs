@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxae2c6d69a571960f',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'aa8418e0292087332801cecae9688ec5',
+  APP_SECRET: '',
 
   PROVINCE: '江苏',
   CITY: '淮安',
@@ -25,13 +25,13 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '8TQjws6zTOzV9DzTnrgMPtFCpXhJZIh_gAGL2Q9RuI4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '10-16',
+      horoscopeDate: '10-17',
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '凡凡姐姐', year: '2002', date: '10-17',
         },
-        #{
+        {
           type: '节日', name: '相识纪念日', year: '2022', date: '09-16',
         },
       ],
