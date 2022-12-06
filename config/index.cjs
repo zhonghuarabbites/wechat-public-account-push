@@ -27,10 +27,6 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-16',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        /*{
-          type: '*生日', name: '', year: '2002', date: '09-09',
-        },*/
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '凡凡姐姐', year: '2002', date: '10-17',
@@ -43,8 +39,6 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-12-06' },
-        // 结婚纪念日
-        /*{ keyword: 'marry_day', date: '2022-09-09' },*/
       ],
     },
   ],
